@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suchit Aadekar</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: yellow;
+      font-size: 70px;
+      letter-spacing: 5px;
+      animation: glow 2s infinite alternate,
+                 zoom 2s ease-in-out;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00ffff,
+                     0 0 20px #00ffff;
+      }
+
+      to {
+        text-shadow: 0 0 20px #00ffff,
+                     0 0 40px #00ffff,
+                     0 0 60px #00ffff;
+      }
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Suchit Aadekar</h1>
+
+</body>
+</html>
